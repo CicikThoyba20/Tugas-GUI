@@ -16,7 +16,7 @@ def main_window():
         layout.addWidget(button)
         button.setGeometry(50,50,100,50)
         button.setStyleSheet("font-size: 25%;background-color: grey; color: red")
-        button.setFont(QFont('Time New Roman',25))
+        button.setFont(QFont('Times New Roman',25))
     main_window.setGeometry(100,100,200,200)
     main_window.setWindowTitle("PyQt5 Example")
     main_window.setLayout(layout)
